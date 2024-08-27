@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ConfigDb.java&apos; to &apos;springautowire/src/main/java/com.qualifier.prc.config&apos;&#x0D;&#x0A;- Original project: &apos;springautowire&apos;&#x0D;&#x0A;- Destination element: &apos;springautowire/src/main/java/com.qualifier.prc.config&apos;&#x0D;&#x0A;- Original element: &apos;com.qualifier.prc.config.ConfigDb.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.qualifier.prc.config" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.qualifier.prc.config{ConfigDb.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1723870730635" units="1" version="1.0"/>
+</session>

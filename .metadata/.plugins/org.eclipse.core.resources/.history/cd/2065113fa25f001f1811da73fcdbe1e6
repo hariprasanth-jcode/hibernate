@@ -1,0 +1,11 @@
+package com.onetomany;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Bank {
+private int id;
+private String name;
+private String ifsc;
+
+}

@@ -1,0 +1,10 @@
+package com.ty;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Review {
+private int id;
+private String heading;
+private String message;
+}

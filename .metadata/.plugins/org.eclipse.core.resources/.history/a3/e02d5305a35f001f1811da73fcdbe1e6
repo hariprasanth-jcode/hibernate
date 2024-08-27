@@ -1,0 +1,11 @@
+package com.onetomany;
+
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class Driver {
+public static void main(String[] args) {
+	EntityManagerFactory entitEntityManagerFactory=Persistence.createEntityManagerFactory("hari");
+	
+}
+}

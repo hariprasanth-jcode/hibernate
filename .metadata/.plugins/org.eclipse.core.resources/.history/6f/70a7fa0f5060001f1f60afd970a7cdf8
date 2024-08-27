@@ -1,0 +1,7 @@
+package com.ty;
+
+public class TestFetchTheRecord {
+public static void main(String[] args) {
+	
+}
+}

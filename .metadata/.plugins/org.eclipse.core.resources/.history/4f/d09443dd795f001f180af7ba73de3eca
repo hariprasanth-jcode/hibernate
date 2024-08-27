@@ -1,0 +1,22 @@
+package com.jpsiders.project.dao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityTransaction;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.jpsiders.project.dto.Student;
+
+@Component(value="dao")
+public class StudentDao {
+	@Autowired
+	private EntityManager entitymanager;
+	
+	public void addStudent(Student student) {
+		EntityTransaction entitytransaction=entitymanager.getTransaction();
+		entitytransaction.begin();
+		entitymanager.persist(student);
+		entitytransaction.commit();
+	}
+}

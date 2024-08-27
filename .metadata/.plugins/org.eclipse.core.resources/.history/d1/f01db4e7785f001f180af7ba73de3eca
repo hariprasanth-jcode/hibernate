@@ -1,0 +1,12 @@
+package com.jpsiders.project.driver;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.jpsiders.project.config.StudentConfig;
+
+public class Driver {
+public static void main(String[] args) {
+	ApplicationContext ac = new AnnotationConfigApplicationContext(StudentConfig.class);
+}
+}

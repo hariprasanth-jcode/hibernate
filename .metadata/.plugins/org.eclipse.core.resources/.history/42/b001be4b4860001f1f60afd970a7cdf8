@@ -1,0 +1,10 @@
+package com.ty;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Product {
+private int id;
+private String name;
+private double cost;
+}

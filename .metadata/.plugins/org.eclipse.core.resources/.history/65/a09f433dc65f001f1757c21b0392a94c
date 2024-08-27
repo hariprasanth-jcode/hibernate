@@ -1,0 +1,12 @@
+package com.ty.project;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Account {
+	@Id
+private int id;
+private long num;
+private double balance;
+}

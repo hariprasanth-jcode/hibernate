@@ -1,0 +1,5 @@
+package com.jpsiders.project.dto;
+
+public class Student {
+
+}

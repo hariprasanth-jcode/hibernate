@@ -1,0 +1,21 @@
+package com.ty;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+public class TestSave {
+public static void main(String[] args) {
+	EntityManagerFactory emf=Persistence.createEntityManagerFactory("review");
+	EntityManager em=emf.createEntityManager();
+	EntityTransaction et=em.getTransaction();
+	
+	Product p1=new Product();
+	p1.setName("MP phone 1001");
+	p1.setId(20000);
+	p1.setId(1);
+	
+	Review r1=new Review();
+}
+}

@@ -1,0 +1,10 @@
+package com.ty.project;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Engine {
+private int id;
+private String type;
+private int cc;
+}

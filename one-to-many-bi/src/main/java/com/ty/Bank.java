@@ -1,0 +1,54 @@
+package com.ty;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Bank {
+	@Id
+	private int id;
+	private String name;
+	private String ifsc;
+
+	@OneToMany(mappedBy = "bank")
+	private List<Account> account;
+
+	public List<Account> getAccount() {
+		return account;
+	}
+
+	public void setAccount(List<Account> account) {
+		this.account = account;
+	}
+
+	Bank() {
+
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getIfsc() {
+		return ifsc;
+	}
+
+	public void setIfsc(String ifsc) {
+		this.ifsc = ifsc;
+	}
+}
