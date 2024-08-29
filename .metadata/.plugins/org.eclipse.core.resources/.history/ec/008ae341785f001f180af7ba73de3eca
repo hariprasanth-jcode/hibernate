@@ -1,8 +1,0 @@
-package com.jpsiders.project.dao;
-
-import org.springframework.stereotype.Component;
-
-@Component(value="dao")
-public class StudentDao {
-
-}

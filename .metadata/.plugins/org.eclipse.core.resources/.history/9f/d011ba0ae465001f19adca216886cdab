@@ -1,0 +1,35 @@
+package com.entity.ty;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+
+@Entity
+public class Student {
+@Id
+@GeneratedValue(strategy=GenerationType.AUTO,generator = "stu_rol_gen")
+@SequenceGenerator(name="stu_rol_gen",initialValue=100,allocationSize = 10,sequenceName = "stu_seq_info")
+private int rol;
+private String name;
+private String email;
+public int getRol() {
+	return rol;
+}
+public void setRol(int rol) {
+	this.rol = rol;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getEmail() {
+	return email;
+}
+public void setEmail(String email) {
+	this.email = email;
+}
+}

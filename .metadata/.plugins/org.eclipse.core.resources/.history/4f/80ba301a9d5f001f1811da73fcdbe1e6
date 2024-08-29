@@ -1,7 +1,0 @@
-package com.ty.project;
-
-public class TestFetchRecord {
-public static void main(String[] args) {
-	
-}
-}

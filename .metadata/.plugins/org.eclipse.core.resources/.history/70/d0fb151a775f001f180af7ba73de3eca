@@ -1,8 +1,0 @@
-package com.jpsiders.project.dto;
-
-import javax.persistence.Entity;
-
-@Entity
-public class Student {
-private int id;
-}

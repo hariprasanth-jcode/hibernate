@@ -1,5 +1,0 @@
-package com.jpsiders.project.config;
-@Component
-public class StudentConfig {
-
-}

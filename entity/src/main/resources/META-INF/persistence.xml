@@ -23,7 +23,7 @@
   
 		</properties>
 	</persistence-unit>
-	<persistence-unit name="postgres" transaction-type="RESOURCE_LOCAL">
+	<persistence-unit name="entity" transaction-type="RESOURCE_LOCAL">
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->

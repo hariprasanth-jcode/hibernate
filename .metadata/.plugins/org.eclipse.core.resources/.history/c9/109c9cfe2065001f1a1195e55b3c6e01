@@ -1,0 +1,11 @@
+package com.ty.hibernate;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Teacher {
+private int id;
+private String name;
+private long phone;
+private String email;
+}

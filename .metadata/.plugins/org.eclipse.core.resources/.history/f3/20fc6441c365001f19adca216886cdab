@@ -1,0 +1,9 @@
+package com.entity.ty;
+
+import javax.persistence.Persistence;
+
+public class Driver {
+public static void main(String[] args) {
+	Persistence.createEntityManagerFactory("entity");
+}
+}

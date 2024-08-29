@@ -1,9 +1,0 @@
-package com.onetomany;
-
-import javax.persistence.Entity;
-
-@Entity
-public class account {
-private int id;
-private long number;
-}

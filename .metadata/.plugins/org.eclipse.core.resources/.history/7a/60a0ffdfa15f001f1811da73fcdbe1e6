@@ -1,5 +1,0 @@
-package com.onetomany;
-@Entity
-public class account {
-
-}
